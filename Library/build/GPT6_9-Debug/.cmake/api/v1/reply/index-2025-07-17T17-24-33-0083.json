@@ -84,6 +84,10 @@
 				"major" : 2,
 				"minor" : 6
 			}
+		},
+		"note.txt" : 
+		{
+			"error" : "unknown query file"
 		}
 	}
 }

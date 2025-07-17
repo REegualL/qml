@@ -15,5 +15,9 @@
         <file>Stylist/StyleSize.qml</file>
         <file>Stylist/TestingState.qml</file>
         <file>Theme/note.txt</file>
+        <file>Containers/AnimatedContainer.qml</file>
+        <file>ModelTest.qml</file>
+        <file>Buttons/CounterMini.qml</file>
+        <file>Buttons/IconBTN.qml</file>
     </qresource>
 </RCC>

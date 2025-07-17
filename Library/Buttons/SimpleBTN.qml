@@ -11,6 +11,18 @@ Rectangle
     property bool isActive : false
     property string iconPath : ""
     property real imgRateo: 0.5
+    property color activeColor: Qt.rgba(
+        0.7 + Math.random() * 0.3,  // R: 0.7–1.0
+        0.7 + Math.random() * 0.3,  // G: 0.7–1.0
+        0.7 + Math.random() * 0.3,  // B: 0.7–1.0
+        1
+    )
+    property color inactiveColor: Qt.rgba(
+                                      0.7 + Math.random() * 0.3,  // R: 0.7–1.0
+                                      0.7 + Math.random() * 0.3,  // G: 0.7–1.0
+                                      0.7 + Math.random() * 0.3,  // B: 0.7–1.0
+                                      1
+                                  )
 
     width:50
     height: 50
@@ -51,12 +63,12 @@ Rectangle
     states: [
         State {
             name: StateObject.pressed
-            PropertyChanges { target: root; color: "lightblue"}
+            PropertyChanges { target: root; color: activeColor}
             PropertyChanges { target: root; radius : 100}
         },
         State {
             name: StateObject.released
-            PropertyChanges { target: root; color: "lightsteelblue"}
+            PropertyChanges { target: root; color: inactiveColor}
             PropertyChanges { target: root; radius : 4}
         },
         State {

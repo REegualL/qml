@@ -8,10 +8,13 @@
 	"INCLUDE_DIR" : "/home/anduck/Desktop/qml/Library/build/GPT6_9-Debug/appLibrary_autogen/include",
 	"INPUTS" : 
 	[
+		"/home/anduck/Desktop/qml/Library/ModelTest.qml",
 		"/home/anduck/Desktop/qml/Library/QRCLauncher.qml",
 		"/home/anduck/Desktop/qml/Library/Controllers/note.txt",
 		"/home/anduck/Desktop/qml/Library/Buttons/note.txt",
 		"/home/anduck/Desktop/qml/Library/Buttons/DialTest.qml",
+		"/home/anduck/Desktop/qml/Library/Buttons/CounterMini.qml",
+		"/home/anduck/Desktop/qml/Library/Buttons/IconBTN.qml",
 		"/home/anduck/Desktop/qml/Library/Buttons/SimpleBTN.qml",
 		"/home/anduck/Desktop/qml/Library/Controls/note.txt",
 		"/home/anduck/Desktop/qml/Library/Theme/note.txt",
@@ -22,7 +25,8 @@
 		"/home/anduck/Desktop/qml/Library/Stylist/qmldir",
 		"/home/anduck/Desktop/qml/Library/Stylist/StyleSize.qml",
 		"/home/anduck/Desktop/qml/Library/Stylist/Style.qml",
-		"/home/anduck/Desktop/qml/Library/Containers/note.txt"
+		"/home/anduck/Desktop/qml/Library/Containers/note.txt",
+		"/home/anduck/Desktop/qml/Library/Containers/AnimatedContainer.qml"
 	],
 	"LOCK_FILE" : "/home/anduck/Desktop/qml/Library/build/GPT6_9-Debug/CMakeFiles/appLibrary_autogen.dir/AutoRcc_library_EWIEGA46WW_Lock.lock",
 	"MULTI_CONFIG" : false,
