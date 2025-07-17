@@ -1,0 +1,5 @@
+module Library
+typeinfo appLibrary.qmltypes
+prefer :/Library/
+Main 1.0 Main.qml
+

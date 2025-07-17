@@ -1,0 +1,37 @@
+{
+	"BUILD_DIR" : "/home/anduck/Desktop/qml/Library/build/GPT6_9-Debug/appLibrary_autogen",
+	"CMAKE_BINARY_DIR" : "/home/anduck/Desktop/qml/Library/build/GPT6_9-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/anduck/Desktop/qml/Library/build/GPT6_9-Debug",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/anduck/Desktop/qml/Library",
+	"CMAKE_SOURCE_DIR" : "/home/anduck/Desktop/qml/Library",
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "/home/anduck/Desktop/qml/Library/build/GPT6_9-Debug/appLibrary_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/anduck/Desktop/qml/Library/QRCLauncher.qml",
+		"/home/anduck/Desktop/qml/Library/Controllers/note.txt",
+		"/home/anduck/Desktop/qml/Library/Buttons/note.txt",
+		"/home/anduck/Desktop/qml/Library/Buttons/DialTest.qml",
+		"/home/anduck/Desktop/qml/Library/Buttons/SimpleBTN.qml",
+		"/home/anduck/Desktop/qml/Library/Controls/note.txt",
+		"/home/anduck/Desktop/qml/Library/Theme/note.txt",
+		"/home/anduck/Desktop/qml/Library/Stylist/note.txt",
+		"/home/anduck/Desktop/qml/Library/Stylist/RandomFill.qml",
+		"/home/anduck/Desktop/qml/Library/Stylist/TestingState.qml",
+		"/home/anduck/Desktop/qml/Library/Stylist/StateObject.qml",
+		"/home/anduck/Desktop/qml/Library/Stylist/qmldir",
+		"/home/anduck/Desktop/qml/Library/Stylist/StyleSize.qml",
+		"/home/anduck/Desktop/qml/Library/Stylist/Style.qml",
+		"/home/anduck/Desktop/qml/Library/Containers/note.txt"
+	],
+	"LOCK_FILE" : "/home/anduck/Desktop/qml/Library/build/GPT6_9-Debug/CMakeFiles/appLibrary_autogen.dir/AutoRcc_library_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "library" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_library.cpp",
+	"RCC_EXECUTABLE" : "/home/anduck/6.9.0/gcc_64/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/anduck/Desktop/qml/Library/build/GPT6_9-Debug/CMakeFiles/appLibrary_autogen.dir/AutoRcc_library_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/anduck/Desktop/qml/Library/library.qrc",
+	"VERBOSITY" : 0
+}

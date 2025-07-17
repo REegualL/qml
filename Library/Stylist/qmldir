@@ -1,0 +1,2 @@
+singleton StateObject 1.0 StateObject.qml
+singleton TestingState 1.0 TestingState.qml

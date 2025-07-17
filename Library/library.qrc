@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>QRCLauncher.qml</file>
+        <file>Buttons/DialTest.qml</file>
+        <file>Buttons/note.txt</file>
+        <file>Buttons/SimpleBTN.qml</file>
+        <file>Containers/note.txt</file>
+        <file>Controllers/note.txt</file>
+        <file>Controls/note.txt</file>
+        <file>Stylist/note.txt</file>
+        <file>Stylist/qmldir</file>
+        <file>Stylist/RandomFill.qml</file>
+        <file>Stylist/StateObject.qml</file>
+        <file>Stylist/Style.qml</file>
+        <file>Stylist/StyleSize.qml</file>
+        <file>Stylist/TestingState.qml</file>
+        <file>Theme/note.txt</file>
+    </qresource>
+</RCC>

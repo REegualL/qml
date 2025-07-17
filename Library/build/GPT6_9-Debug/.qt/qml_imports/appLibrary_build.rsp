@@ -1,0 +1,14 @@
+-rootPath
+/home/anduck/Desktop/qml/Library
+-cmake-output
+-output-file
+/home/anduck/Desktop/qml/Library/build/GPT6_9-Debug/.qt/qml_imports/appLibrary_build.cmake
+-importPath
+/home/anduck/Desktop/qml/Library/build/GPT6_9-Debug/Library
+-importPath
+/home/anduck/Desktop/qml/Library/build/GPT6_9-Debug
+-importPath
+/home/anduck/6.9.0/gcc_64/qml
+-qrcFiles
+/home/anduck/Desktop/qml/Library/build/GPT6_9-Debug/.qt/rcc/qmake_Library.qrc
+/home/anduck/Desktop/qml/Library/build/GPT6_9-Debug/.qt/rcc/appLibrary_raw_qml_0.qrc

@@ -1,0 +1,10 @@
+-I
+/home/anduck/Desktop/qml/Library/build/GPT6_9-Debug
+-I
+/home/anduck/6.9.0/gcc_64/qml
+--resource
+/home/anduck/Desktop/qml/Library/build/GPT6_9-Debug/.qt/rcc/qmake_Library.qrc
+--resource
+/home/anduck/Desktop/qml/Library/build/GPT6_9-Debug/.qt/rcc/appLibrary_raw_qml_0.qrc
+--module
+Library

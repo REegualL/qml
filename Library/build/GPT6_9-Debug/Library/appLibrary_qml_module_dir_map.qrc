@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="/">
+    <file alias="/Library">/home/anduck/Desktop/qml/Library/build/GPT6_9-Debug/Library</file>
+
+  </qresource>
+</RCC>

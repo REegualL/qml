@@ -1,0 +1,7 @@
+<RCC>
+  <qresource prefix="/Library/">
+    <file alias="Main.qml">/home/anduck/Desktop/qml/Library/Main.qml</file>
+    <file alias="library.qrc">/home/anduck/Desktop/qml/Library/library.qrc</file>
+  </qresource>
+</RCC>
+
