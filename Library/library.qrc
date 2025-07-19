@@ -19,5 +19,6 @@
         <file>ModelTest.qml</file>
         <file>Buttons/CounterMini.qml</file>
         <file>Buttons/IconBTN.qml</file>
+        <file>Stylist/Color.qml</file>
     </qresource>
 </RCC>

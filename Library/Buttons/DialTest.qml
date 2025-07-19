@@ -1,27 +1,20 @@
 import QtQuick
 import QtQuick.Controls.Basic
 import QtQuick.Layouts
+import "../Stylist"
 
 Dial {
     id: root
+
     startAngle: 0
     endAngle: 360
 
     property bool isActive
-    property color activeColor: Qt.rgba(
-        0.2 + Math.random() * 0.3,  // R: 0.7–1.0
-        0.2 + Math.random() * 0.3,  // G: 0.7–1.0
-        0.2 + Math.random() * 0.3,  // B: 0.7–1.0
-        1
-    )
-    property color inactiveColor: Qt.rgba(
-                                      0.2 + Math.random() * 0.3,  // R: 0.7–1.0
-                                      0.2 + Math.random() * 0.3,  // G: 0.7–1.0
-                                      0.2 + Math.random() * 0.3,  // B: 0.7–1.0
-                                      1
-                                  )
+    property color activeColor: Color.wildBlueYonder
+    property color inactiveColor: Color.vampireBlack
 
     signal clicked
+
     enabled: root.isActive
     palette.dark: root.pressed ? root.activeColor : root.inactiveColor
 
@@ -39,10 +32,10 @@ Dial {
         height: width
         x: root.width / 2 - width / 2
         y: root.height / 2 - height / 2
-        color: "black"
+        color: Color.vampireBlack
         radius: width / 2
         border.width: root.value * 100  // Border grows as value increases
-        border.color: root.pressed ? root.activeColor : root.inactiveColor
+        border.color: root.activeColor
         opacity: root.enabled ? 1 : 0.3
     }
 
@@ -53,12 +46,13 @@ Dial {
             id: valueText
             text: root.value.toFixed(2)
             color: Qt.rgba(
-                       0.5 + root.value   * 0.5,  // R: 0.7–1.0
-                       0.5 + root.value  * 0.5,  // G: 0.7–1.0
-                       0.5 + root.value * 0.5,  // B: 0.7–1.0
-                       1
-                   )
-            font.pointSize: root.pressed ? 20 : 12
+                0.5 + root.value * 0.5,  // R: 0.7–1.0
+                0.5 + root.value * 0.5,  // G: 0.7–1.0
+                0.5 + root.value * 0.5,  // B: 0.7–1.0
+                1
+            )
+            font.bold: true
+            font.pointSize: root.pressed ? 24 : 17
             anchors.centerIn: parent
         }
     }
@@ -69,16 +63,14 @@ Dial {
         height: 16
         radius: 8
         antialiasing: true
-        color: root.pressed ? root.activeColor : root.inactiveColor
+        color: root.pressed ? root.inactiveColor : root.activeColor
         opacity: root.enabled ? 1 : 0.3
 
         x: bg.x + bg.width / 2 - width / 2
         y: bg.y + bg.height / 2 - height / 2
 
         transform: [
-            Translate {
-                y: -Math.min(bg.width, bg.height) * 0.5
-            },
+            Translate { y: -Math.min(bg.width, bg.height) * 0.5 },
             Rotation {
                 angle: root.angle
                 origin.x: handleItem.width / 2

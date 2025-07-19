@@ -1,5 +1,5 @@
 import QtQuick 2.15
-import QtQuick.Layouts  2.15
+import QtQuick.Layouts 2.15
 import "Buttons"
 import "Stylist"
 
@@ -8,64 +8,64 @@ Window {
     height: 480
     visible: true
     title: qsTr("Hello World")
-    RowLayout
-    {
+
+    RowLayout {
         anchors.margins: 4
         anchors.fill: parent
         spacing: 16
-        Rectangle
-        {
+
+        Rectangle {
             Layout.fillHeight: true
             Layout.preferredWidth: StateObject.widthBTN
             color: Qt.rgba(Math.random(), Math.random(), Math.random(), 0.6)
             radius: 64
 
-            ColumnLayout{
+            ColumnLayout {
                 anchors.fill: parent
+
                 Item {
                     Layout.fillHeight: true
                     Layout.fillWidth: true
                 }
-                SimpleBTN{
+
+                SimpleBTN {
                     isActive: TestingState.currentState === TestingState.home
                     onClicked: {
                         TestingState.currentState = TestingState.home
                     }
                 }
-                SimpleBTN{
+
+                SimpleBTN {
                     isActive: TestingState.currentState === TestingState.settings
                     onClicked: {
                         TestingState.currentState = TestingState.settings
                         console.debug(TestingState.currentState)
                     }
-
                 }
-                SimpleBTN{
+
+                SimpleBTN {
                     isActive: TestingState.currentState === TestingState.exit
                     onClicked: {
                         TestingState.currentState = TestingState.exit
                     }
                 }
+
                 Item {
                     Layout.preferredHeight: StateObject.heightBTN
                     Layout.preferredWidth: StateObject.widthBTN
                 }
             }
         }
-        Rectangle
-        {
-            radius: 64
 
+        Rectangle {
+            radius: 64
             Layout.fillHeight: true
             Layout.fillWidth: true
             color: Qt.rgba(Math.random(), Math.random(), Math.random(), 0.6)
 
-
-
-
-            DialTest{
-            width: 100
-            height: 100
+            DialTest {
+                width: 100
+                height: 100
             }
         }
     }

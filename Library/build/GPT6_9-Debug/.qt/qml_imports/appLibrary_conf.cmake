@@ -31,8 +31,8 @@ set(qml_import_scanner_import_28 "CLASSNAME;QtQuickEffectsPlugin;LINKTARGET;Qt6:
 set(qml_import_scanner_import_29 "CLASSNAME;QmlShapesPlugin;LINKTARGET;Qt6::qmlshapesplugin;NAME;QtQuick.Shapes;PATH;/home/anduck/6.9.0/gcc_64/qml/QtQuick/Shapes;PLUGIN;qmlshapesplugin;PREFER;:/qt-project.org/imports/QtQuick/Shapes/;RELATIVEPATH;QtQuick/Shapes;TYPE;module;")
 set(qml_import_scanner_import_30 "CLASSNAME;QtQuickControls2BasicStyleImplPlugin;COMPONENTS;/home/anduck/6.9.0/gcc_64/qml/QtQuick/Controls/Basic/impl/TextEditingContextMenu.qml;LINKTARGET;Qt6::qtquickcontrols2basicstyleimplplugin;NAME;QtQuick.Controls.Basic.impl;PATH;/home/anduck/6.9.0/gcc_64/qml/QtQuick/Controls/Basic/impl;PLUGIN;qtquickcontrols2basicstyleimplplugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/QtQuick/Controls/Basic/impl/;RELATIVEPATH;QtQuick/Controls/Basic/impl;TYPE;module;")
 set(qml_import_scanner_import_31 "CLASSNAME;QtQmlLabsModelsPlugin;LINKTARGET;Qt6::labsmodelsplugin;NAME;Qt.labs.qmlmodels;PATH;/home/anduck/6.9.0/gcc_64/qml/Qt/labs/qmlmodels;PLUGIN;labsmodelsplugin;PLUGINISOPTIONAL;;PREFER;:/qt-project.org/imports/Qt/labs/qmlmodels/;RELATIVEPATH;Qt/labs/qmlmodels;TYPE;module;")
-set(qml_import_scanner_import_32 "NAME;../Stylist;PATH;/home/anduck/Desktop/qml/Library/Stylist;TYPE;directory;")
-set(qml_import_scanner_import_33 "NAME;Buttons;PATH;/home/anduck/Desktop/qml/Library/build/GPT6_9-Debug/Library/Buttons;TYPE;directory;")
-set(qml_import_scanner_import_34 "NAME;Stylist;PATH;/home/anduck/Desktop/qml/Library/build/GPT6_9-Debug/Library/Stylist;TYPE;directory;")
-set(qml_import_scanner_import_35 "NAME;..;PATH;/home/anduck/Desktop/qml/Library;TYPE;directory;")
+set(qml_import_scanner_import_32 "NAME;..;PATH;/home/anduck/Desktop/qml/Library;TYPE;directory;")
+set(qml_import_scanner_import_33 "NAME;../Stylist;PATH;/home/anduck/Desktop/qml/Library/Stylist;TYPE;directory;")
+set(qml_import_scanner_import_34 "NAME;Buttons;PATH;/home/anduck/Desktop/qml/Library/build/GPT6_9-Debug/Library/Buttons;TYPE;directory;")
+set(qml_import_scanner_import_35 "NAME;Stylist;PATH;/home/anduck/Desktop/qml/Library/build/GPT6_9-Debug/Library/Stylist;TYPE;directory;")
 
