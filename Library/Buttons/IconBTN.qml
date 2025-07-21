@@ -57,9 +57,7 @@ Item {
     signal buttonClicked()
 
     implicitHeight: 50
-    implicitWidth: root.writable
-        ? (root.isSetPreferredWidth ? (text.contentWidth + Style.dimensions.offsetText) : Style.dimensions.defaultHeightIconButton)
-        : Style.dimensions.defaultHeightIconButton
+    implicitWidth: 50
 
     onFilledChanged: {
         roburIcon.color = root.filled

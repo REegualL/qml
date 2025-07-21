@@ -18,8 +18,6 @@ Dial {
     enabled: root.isActive
     palette.dark: root.pressed ? root.activeColor : root.inactiveColor
 
-    implicitHeight: heightSize
-    implicitWidth: widthSize
 
     property int widthToOccupe: 0
     property int heightToOccupe: 0

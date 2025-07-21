@@ -61,6 +61,7 @@ Rectangle {
             anchors.centerIn: parent
             horizontalAlignment: Text.AlignHCenter
             verticalAlignment: Text.AlignVCenter
+            font.bold: true
         }
 
         ColumnLayout {
@@ -79,6 +80,8 @@ Rectangle {
 
             IconBTN {
                 id: upButton
+                icon: "qrc:/icons/arrow.png"
+
                 activeColor: root.isActive ? root.activeColor : "transparent"
                 Layout.preferredWidth: root.btnSize
                 Layout.preferredHeight: root.btnSize
@@ -96,6 +99,7 @@ Rectangle {
 
             IconBTN {
                 id: downButton
+                icon: "qrc:/icons/arrow.png"
                 activeColor: root.isActive ? root.activeColor : "transparent"
                 Layout.preferredWidth: root.btnSize
                 Layout.preferredHeight: root.btnSize
@@ -121,6 +125,8 @@ Rectangle {
         anchors.bottom: parent.bottom
         anchors.left: parent.left
         anchors.margins: 8
+        font.bold: root.isActive ? true : false
+
     }
 
     MouseArea {

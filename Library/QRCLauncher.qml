@@ -163,10 +163,34 @@ Window {
 
                         RowLayout {
                             anchors.fill: parent
+                            Item
+                            {
+                                Layout.fillHeight: true
+                                Layout.fillWidth: true
+                                Layout.margins: 8
+                                SimpleBTNActive {width: parent.width;height: parent.height; anchors.centerIn: parent}
 
-                            SimpleBTN { Layout.alignment: Qt.AlignCenter }
-                            SimpleBTN { Layout.alignment: Qt.AlignCenter }
-                            SimpleBTN { Layout.alignment: Qt.AlignCenter }
+                            }
+                            Item
+                            {
+                                Layout.fillHeight: true
+                                Layout.fillWidth: true
+                                Layout.margins: 8
+
+                                SimpleBTNActive {width: parent.width;height: parent.height; anchors.centerIn: parent}
+
+                            }
+                            Item
+                            {
+                                Layout.fillHeight: true
+                                Layout.fillWidth: true
+                                Layout.margins: 8
+
+                                SimpleBTNActive {width: parent.width;height: parent.height; anchors.centerIn: parent}
+
+                            }
+
+
                         }
                     }
 
@@ -232,6 +256,17 @@ Window {
                                 width: parent.width / 2
                                 anchors.centerIn: parent
                                 onClicked: { parent.isActive = true }
+
+                            }
+                            Text
+                            {
+                                visible: parent.isActive
+                                text: "value"
+                                anchors.bottom: parent.bottom
+                                anchors.left: parent.left
+                                anchors.margins: 8
+                                font.pointSize: 16
+                                font.bold: true
                             }
 
                             onDisableAll: {
@@ -258,6 +293,16 @@ Window {
                                 anchors.centerIn: parent
                                 onClicked: { parent.isActive = true }
                             }
+                            Text
+                            {
+                                visible: parent.isActive
+                                text: "value"
+                                anchors.bottom: parent.bottom
+                                anchors.left: parent.left
+                                anchors.margins: 8
+                                font.pointSize: 16
+                                font.bold: true
+                            }
 
                             onDisableAll: {
                                 firstContainer.isActive = false
@@ -283,6 +328,16 @@ Window {
                                 anchors.centerIn: parent
                                 onClicked: { parent.isActive = true }
                             }
+                            Text
+                            {
+                                visible: parent.isActive
+                                text: "value"
+                                anchors.bottom: parent.bottom
+                                anchors.left: parent.left
+                                anchors.margins: 8
+                                font.pointSize: 16
+                                font.bold: true
+                            }
 
                             onDisableAll: {
                                 firstContainer.isActive = false
@@ -307,6 +362,16 @@ Window {
                                 width: parent.width / 2
                                 anchors.centerIn: parent
                                 onClicked: { parent.isActive = true }
+                            }
+                            Text
+                            {
+                                visible: parent.isActive
+                                text: "value"
+                                anchors.bottom: parent.bottom
+                                anchors.left: parent.left
+                                anchors.margins: 8
+                                font.pointSize: 16
+                                font.bold: true
                             }
 
                             onDisableAll: {
@@ -422,7 +487,7 @@ Window {
                                         widthToOccupe: parent.width
                                         heightToOccupe: parent.height
                                         activeColor: Color.dirtyWhite
-                                        inactiveColor:   Color.lightMossGreen
+                                        inactiveColor:   Color.deepRose
                                     }
                                     AnimatedContainer {
                                         isAnimated: true
@@ -431,7 +496,7 @@ Window {
                                         widthToOccupe: parent.width
                                         heightToOccupe: parent.height
                                         activeColor: Color.dirtyWhite
-                                        inactiveColor:   Color.lightMossGreen
+                                        inactiveColor:   Color.deepRose
                                     }
                                     AnimatedContainer {
                                         isAnimated: true
@@ -440,7 +505,7 @@ Window {
                                         widthToOccupe: parent.width
                                         heightToOccupe: parent.height
                                         activeColor: Color.dirtyWhite
-                                        inactiveColor:   Color.lightMossGreen
+                                        inactiveColor:   Color.deepRose
                                     }
                                     AnimatedContainer {
                                         isAnimated: true
@@ -449,7 +514,7 @@ Window {
                                         widthToOccupe: parent.width
                                         heightToOccupe: parent.height
                                         activeColor: Color.dirtyWhite
-                                        inactiveColor:   Color.lightMossGreen
+                                        inactiveColor:   Color.deepRose
                                     }
                                     AnimatedContainer {
                                         isAnimated: true
